@@ -16,7 +16,41 @@ Um site interativo para explorar e pesquisar as frutas do diabo do universo de O
 
 ---
 
-## 🍇 Frutas catalogadas (24)
+## 🚀 Como usar
+
+### Opção 1 — Abrir localmente
+
+Basta baixar o arquivo e abrir no navegador:
+
+```bash
+# Clique duas vezes no arquivo ou abra via terminal:
+open enciclopedia-frutas-diabo.html        # macOS
+start enciclopedia-frutas-diabo.html       # Windows
+xdg-open enciclopedia-frutas-diabo.html    # Linux
+```
+
+### Opção 2 — Hospedar online (Netlify Drop)
+
+1. Acesse [netlify.com/drop](https://netlify.com/drop)
+2. Arraste o arquivo `enciclopedia-frutas-diabo.html` para a página
+3. Pronto — você receberá um link público em segundos, sem precisar de conta
+
+### Opção 3 — GitHub Pages
+
+```bash
+git init
+git add enciclopedia-frutas-diabo.html
+git commit -m "feat: enciclopédia das frutas do diabo"
+git branch -M main
+git remote add origin https://github.com/seu-usuario/seu-repo.git
+git push -u origin main
+```
+
+Ative o GitHub Pages em **Settings → Pages → Branch: main** e renomeie o arquivo para `index.html`.
+
+---
+
+## 🍇 Frutas catalogadas (44)
 
 | Fruta | Tipo | Usuário |
 |-------|------|---------|
@@ -44,6 +78,27 @@ Um site interativo para explorar e pesquisar as frutas do diabo do universo de O
 | Soru Soru no Mi | Paramecia | Charlotte Linlin (Big Mom) |
 | Fuwa Fuwa no Mi | Paramecia | Shiki o Leão Dourado |
 | Jiku Jiku no Mi | Paramecia | Scratchmen Apoo |
+| Bomu Bomu no Mi | Paramecia | Mr. 5 |
+| Kilo Kilo no Mi | Paramecia | Miss Valentine |
+| Sube Sube no Mi | Paramecia | Alvida |
+| Bara Bara no Mi | Paramecia | Buggy o Palhaço |
+| Toge Toge no Mi | Paramecia | Miss Doublefinger |
+| Kama Kama no Mi | Paramecia | Eric the Whirlwind |
+| Ori Ori no Mi | Paramecia | Hina a Preta |
+| Nagi Nagi no Mi | Paramecia | Corazon / Rosinante Donquixote |
+| Chiyu Chiyu no Mi | Paramecia | Mansherry |
+| Beta Beta no Mi | Paramecia | Trebol |
+| Inu Inu no Mi: Modelo Lobo | Zoan | Jabra |
+| Neko Neko no Mi: Modelo Leopardo | Zoan | Rob Lucci |
+| Uma Uma no Mi: Modelo Pegasus | Zoan Mítico | Stronger |
+| Hebi Hebi no Mi: Modelo Anaconda | Zoan | Boa Sandersonia |
+| Hebi Hebi no Mi: Modelo King Cobra | Zoan | Boa Marigold |
+| Tori Tori no Mi: Modelo Falcão | Zoan | Pell |
+| Guru Guru no Mi | Paramecia | Buffalo |
+| Ryu Ryu no Mi: Modelo Brachiosaurus | Zoan Antigo | Queen a Calamidade |
+| Ryu Ryu no Mi: Modelo Spinossauro | Zoan Antigo | King a Calamidade |
+| Memo Memo no Mi | Paramecia | Charlotte Pudding |
+| Netsu Netsu no Mi | Paramecia | Charlotte Oven |
 
 ---
 
@@ -64,6 +119,31 @@ O projeto é intencionalmente um arquivo único para máxima portabilidade — s
 - **Paleta:** roxo (Paramecia), laranja (Zoan), azul (Logia)
 - **Tipografia:** Cinzel (títulos) + Crimson Pro (corpo)
 - **Animações:** entrada em cascata dos cards, barras de poder animadas no modal
+
+---
+
+## 📌 Como adicionar mais frutas
+
+Abra o arquivo HTML e localize o array `const fruits = [...]`. Adicione um novo objeto seguindo o padrão:
+
+```javascript
+{
+  name: "Nome no Mi",           // nome japonês
+  pt: "Fruta do Nome",          // tradução
+  type: "Paramecia",            // Paramecia | Zoan | Logia | Zoan Mítico | etc.
+  icon: "🍊",                   // emoji representativo
+  user: "Nome do Usuário",
+  desc: "Descrição curta para o card.",
+  ability: "Descrição detalhada da habilidade para o modal.",
+  powers: {
+    Força: 80,         // 0–100
+    Velocidade: 70,
+    Defesa: 60,
+    Versatilidade: 75
+  },
+  weakness: ["Água do mar", "Seastone", "Fraqueza específica"]
+}
+```
 
 ---
 
