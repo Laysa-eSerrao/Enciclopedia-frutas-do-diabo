@@ -67,31 +67,6 @@ O projeto é intencionalmente um arquivo único para máxima portabilidade — s
 
 ---
 
-## 📌 Como adicionar mais frutas
-
-Abra o arquivo HTML e localize o array `const fruits = [...]`. Adicione um novo objeto seguindo o padrão:
-
-```javascript
-{
-  name: "Nome no Mi",           // nome japonês
-  pt: "Fruta do Nome",          // tradução
-  type: "Paramecia",            // Paramecia | Zoan | Logia | Zoan Mítico | etc.
-  icon: "🍊",                   // emoji representativo
-  user: "Nome do Usuário",
-  desc: "Descrição curta para o card.",
-  ability: "Descrição detalhada da habilidade para o modal.",
-  powers: {
-    Força: 80,         // 0–100
-    Velocidade: 70,
-    Defesa: 60,
-    Versatilidade: 75
-  },
-  weakness: ["Água do mar", "Seastone", "Fraqueza específica"]
-}
-```
-
----
-
 ## ⚠️ Aviso
 
 Este é um projeto de fã sem fins lucrativos. One Piece é propriedade de **Eiichiro Oda** e **Shueisha**. Nenhum conteúdo oficial (imagens, mangá, anime) foi utilizado ou reproduzido.
