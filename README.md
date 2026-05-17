@@ -16,40 +16,6 @@ Um site interativo para explorar e pesquisar as frutas do diabo do universo de O
 
 ---
 
-## 🚀 Como usar
-
-### Opção 1 — Abrir localmente
-
-Basta baixar o arquivo e abrir no navegador:
-
-```bash
-# Clique duas vezes no arquivo ou abra via terminal:
-open enciclopedia-frutas-diabo.html        # macOS
-start enciclopedia-frutas-diabo.html       # Windows
-xdg-open enciclopedia-frutas-diabo.html    # Linux
-```
-
-### Opção 2 — Hospedar online (Netlify Drop)
-
-1. Acesse [netlify.com/drop](https://netlify.com/drop)
-2. Arraste o arquivo `enciclopedia-frutas-diabo.html` para a página
-3. Pronto — você receberá um link público em segundos, sem precisar de conta
-
-### Opção 3 — GitHub Pages
-
-```bash
-git init
-git add enciclopedia-frutas-diabo.html
-git commit -m "feat: enciclopédia das frutas do diabo"
-git branch -M main
-git remote add origin https://github.com/seu-usuario/seu-repo.git
-git push -u origin main
-```
-
-Ative o GitHub Pages em **Settings → Pages → Branch: main** e renomeie o arquivo para `index.html`.
-
----
-
 ## 🍇 Frutas catalogadas (24)
 
 | Fruta | Tipo | Usuário |
