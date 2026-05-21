@@ -626,14 +626,6 @@ const fruits = [
     weakness:["Água do mar","Seastone","Luz do sol destrói zumbis e devolve sombras"]
   },
   {
-    name:"Horo Horo no Mi", pt:"Fruta do Fantasma", type:"Paramecia", icon:"👾",
-    user:"Perona",
-    desc:"Projeta fantasmas negativos que drenam a vontade de lutar — e permite projeção astral da consciência.",
-    ability:"Fantasmas Negativos causam depressão instantânea. Corpo astral pode viajar longe enquanto o físico permanece inerte e invulnerável.",
-    powers:{Força:45, Velocidade:65, Defesa:55, Versatilidade:85},
-    weakness:["Água do mar","Seastone","Pessoas naturalmente pessimistas são imunes"]
-  },
-  {
     name:"Awa Awa no Mi", pt:"Fruta da Bolha", type:"Paramecia", icon:"🫧",
     user:"Kalifa",
     desc:"Cria bolhas de sabão que limpam qualquer coisa — inclusive a força e energia de combatentes.",
@@ -682,27 +674,11 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Nagi Nagi no Mi", pt:"Fruta do Silêncio", type:"Paramecia", icon:"🔕",
-    user:"Donquixote Rosinante (Corazon)",
-    desc:"Cria uma bolha de silêncio absoluto ao redor do usuário, tornando qualquer som inaudível para fora.",
-    ability:"Sons dentro da bolha não saem e sons externos não entram. Fundamental para proteger Law enquanto criança, escondendo seus gritos de dor.",
-    powers:{Força:40, Velocidade:55, Defesa:58, Versatilidade:82},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
     name:"Buki Buki no Mi", pt:"Fruta da Arma", type:"Paramecia", icon:"⚔️",
     user:"Baby 5",
     desc:"Transforma qualquer parte do corpo em qualquer tipo de arma — espadas, canhões, mísseis.",
     ability:"Arsenal ilimitado integrado ao próprio corpo. Pode se transformar completamente em míssil de longo alcance ou em múltiplas armas simultâneas.",
     powers:{Força:80, Velocidade:72, Defesa:60, Versatilidade:95},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Guru Guru no Mi", pt:"Fruta da Rotação", type:"Paramecia", icon:"🌀",
-    user:"Buffalo",
-    desc:"Faz girar qualquer parte do corpo como hélice, gerando propulsão intensa e força rotacional.",
-    ability:"Rotação de membros cria propulsão para voo e ataques centrífugos. Combinado com Baby 5, forma dupla de combate aéreo devastadora.",
-    powers:{Força:65, Velocidade:82, Defesa:48, Versatilidade:70},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -738,36 +714,12 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Nui Nui no Mi", pt:"Fruta da Costura", type:"Paramecia", icon:"🪡",
-    user:"Leo",
-    desc:"Costura qualquer coisa com linhas invisíveis — pessoas ao chão, feridas fechadas, objetos unidos.",
-    ability:"Costura inimigos ao solo imobilizando sem dano. Pode fechar ferimentos costurando pele e prender armas nas mãos de aliados.",
-    powers:{Força:45, Velocidade:55, Defesa:50, Versatilidade:88},
-    weakness:["Água do mar","Seastone","Força bruta rompe as costuras"]
-  },
-  {
     name:"Mogu Mogu no Mi", pt:"Fruta da Toupeira", type:"Zoan", icon:"🦫",
     user:"Miss Merry Christmas",
     desc:"Transforma em toupeira gigante ou forma híbrida com capacidade de escavar o solo em alta velocidade.",
     ability:"Tunelagem subterrânea instantânea criando armadilhas. Pode emergir de qualquer ponto do solo para ataques surpresa.",
     powers:{Força:70, Velocidade:65, Defesa:72, Versatilidade:68},
     weakness:["Água do mar","Seastone","Ineficaz em superfícies duras como rocha"]
-  },
-  {
-    name:"Toge Toge no Mi", pt:"Fruta dos Espinhos", type:"Paramecia", icon:"🌵",
-    user:"Miss Doublefinger",
-    desc:"Faz brotar espinhos extremamente afiados em qualquer parte do corpo.",
-    ability:"Espinhos extensíveis que perfuram aço. Pode propelir o corpo como foguete usando os espinhos como propulsores.",
-    powers:{Força:70, Velocidade:65, Defesa:72, Versatilidade:68},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Shari Shari no Mi", pt:"Fruta da Roda", type:"Paramecia", icon:"⚙️",
-    user:"Sharinguru",
-    desc:"Transforma membros do corpo em rodas giratórias de alta velocidade e força cortante.",
-    ability:"Braços e pernas viram rodas que giram a velocidades devastadoras, cortando o aço e propulsionando como veículo.",
-    powers:{Força:70, Velocidade:80, Defesa:55, Versatilidade:65},
-    weakness:["Água do mar","Seastone"]
   },
   {
     name:"Ami Ami no Mi", pt:"Fruta da Rede", type:"Paramecia", icon:"🕸️",
@@ -778,92 +730,12 @@ const fruits = [
     weakness:["Água do mar","Seastone","Objetos cortantes destroem as fibras"]
   },
   {
-    name:"Awa Awa no Mi", pt:"Fruta da Espuma", type:"Paramecia", icon:"🫧",
-    user:"Kalifa",
-    desc:"Cria espuma de sabão que ao tocar oponentes remove completamente a força muscular.",
-    ability:"Espuma que deixa o adversário completamente sem força. Transforma superfícies em escorregadias e pode criar névoa de bolhas cegante.",
-    powers:{Força:45, Velocidade:58, Defesa:50, Versatilidade:78},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Doa Doa no Mi", pt:"Fruta da Porta", type:"Paramecia", icon:"🚪",
-    user:"Blueno",
-    desc:"Cria portas em qualquer superfície — paredes, ar, e até no corpo dos inimigos.",
-    ability:"Portais instantâneos em qualquer material para teletransporte. Pode abrir câmaras no corpo de adversários como armadilha.",
-    powers:{Força:72, Velocidade:85, Defesa:68, Versatilidade:90},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Kage Kage no Mi", pt:"Fruta da Sombra", type:"Paramecia", icon:"🌑",
-    user:"Gecko Moria",
-    desc:"Manipula sombras — rouba-as de pessoas vivas e insere em cadáveres para criar zumbis guerreiros.",
-    ability:"Exército de zumbis com personalidades de lutadores roubadas. Quem perde a sombra fraqueja sob a luz solar. Sombra própria vira guerreiro autônomo.",
-    powers:{Força:85, Velocidade:50, Defesa:70, Versatilidade:95},
-    weakness:["Água do mar","Seastone","Luz do sol destroi zumbis e devolve sombras"]
-  },
-  {
-    name:"Hito Hito no Mi: Modelo Daibutsu", pt:"Fruta Humana: Grande Buda", type:"Zoan Mítico", icon:"🗿",
-    user:"Sengoku o Buda",
-    desc:"Transforma no Grande Buda dourado — uma das raras frutas Zoan Míticas de um Almirante da Frota.",
-    ability:"Gigante dourado que dispara ondas de choque shockwave douradas em área ampla. Força e tamanho colossal.",
-    powers:{Força:96, Velocidade:48, Defesa:88, Versatilidade:80},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Yomi Yomi no Mi", pt:"Fruta da Ressurreição", type:"Paramecia", icon:"🎷",
-    user:"Brook",
-    desc:"Permite ao usuário retornar da morte uma única vez e usar o frio da alma como arma.",
-    ability:"Ressurreição garantida após a primeira morte. Alma pode sair do corpo e percorrer longas distâncias. Habilidades gélidas da alma congelam o ar.",
-    powers:{Força:68, Velocidade:80, Defesa:58, Versatilidade:85},
-    weakness:["Água do mar","Seastone","Ressurreição só funciona uma vez"]
-  },
-  {
-    name:"Hito Hito no Mi", pt:"Fruta Humana", type:"Zoan", icon:"🧠",
-    user:"Tony Tony Chopper",
-    desc:"Permite a um animal adquirir inteligência e transformação humana — no caso de Chopper, um rena.",
-    ability:"Sete formas via Rumble Ball: Walk, Brain, Heavy, Horn, Arm, Guard e Kung Fu Point. Monster Point com overdose.",
-    powers:{Força:75, Velocidade:78, Defesa:72, Versatilidade:100},
-    weakness:["Água do mar","Seastone","Overdose de Rumble Ball causa perda de controle"]
-  },
-  {
-    name:"Numa Numa no Mi", pt:"Fruta do Pântano", type:"Logia", icon:"🟤",
-    user:"Caribou",
-    desc:"Transforma em lama de pântano — Logia único capaz de armazenar objetos no interior do corpo.",
-    ability:"Absorve pessoas e objetos dentro do corpo pantanoso. Único Logia com armazenamento interno de seres vivos capturados.",
-    powers:{Força:75, Velocidade:52, Defesa:80, Versatilidade:83},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Pero Pero no Mi", pt:"Fruta do Candy", type:"Paramecia", icon:"🍭",
-    user:"Charlotte Perospero",
-    desc:"Cria e controla candy cristalizado que pode imobilizar e encapsular qualquer coisa.",
-    ability:"Prisões de doce cristalizado praticamente indestrutível. Pode revestir superfícies inteiras e criar estruturas arquitetônicas de candy.",
-    powers:{Força:82, Velocidade:65, Defesa:88, Versatilidade:85},
-    weakness:["Água do mar","Seastone","Calor e água dissolvem o candy"]
-  },
-  {
     name:"Mira Mira no Mi", pt:"Fruta do Espelho", type:"Paramecia", icon:"🪞",
     user:"Charlotte Brulee",
     desc:"Controla espelhos — cria portais entre reflexos e aprisiona pessoas dentro do mundo dos espelhos.",
     ability:"Dimensão espelhada paralela à realidade. Portais instantâneos entre qualquer espelho do mundo. Pode criar cópias ilusórias de qualquer pessoa.",
     powers:{Força:45, Velocidade:80, Defesa:60, Versatilidade:95},
     weakness:["Água do mar","Seastone","Espelhos quebrados destroem os portais"]
-  },
-  {
-    name:"Bisu Bisu no Mi", pt:"Fruta do Biscoito", type:"Paramecia", icon:"🍪",
-    user:"Charlotte Cracker",
-    desc:"Cria e controla biscoitos indestrutíveis moldados em guerreiros de armadura completa.",
-    ability:"Exércitos de soldados de biscoito regeneráveis infinitamente. Armaduras de dureza extrema que resistem aos Yonkou.",
-    powers:{Força:88, Velocidade:65, Defesa:95, Versatilidade:82},
-    weakness:["Água do mar","Seastone","Biscoito molhado amolece e perde resistência"]
-  },
-  {
-    name:"Nami Nami no Mi", pt:"Fruta da Extração", type:"Paramecia", icon:"🫗",
-    user:"Charlotte Smoothie",
-    desc:"Espreme qualquer coisa — pessoas, animais, objetos — extraindo toda a umidade e energia vital.",
-    ability:"Absorve líquidos extraídos aumentando força e tamanho. Pode desidratar oponentes fatalmente e lançar os líquidos como projéteis.",
-    powers:{Força:90, Velocidade:68, Defesa:80, Versatilidade:82},
-    weakness:["Água do mar","Seastone"]
   },
   {
     name:"Shibo Shibo no Mi", pt:"Fruta da Espremida", type:"Paramecia", icon:"🍋",
@@ -1056,6 +928,134 @@ const fruits = [
     ability:"Ouro líquido que se solidifica ao contato, aprisionando qualquer pessoa coberta por ele. Pode criar construções e armas de ouro em fração de segundo.",
     powers:{Força:90, Velocidade:65, Defesa:88, Versatilidade:92},
     weakness:["Água do mar","Seastone","Água do mar dissolve o ouro do corpo das vítimas libertando-as"]
+  },
+  {
+    name:"Gasha Gasha no Mi", pt:"Fruta da Montagem", type:"Paramecia", icon:"🔩",
+    user:"Douglas Bullet",
+    desc:"Desmonta e remonta qualquer objeto inorgânico ao redor, fundindo tudo em construções colossais.",
+    ability:"Absorve navios, canhões e edifícios inteiros remontando-os em armadura ou arma gigantesca. Pode criar um gigante mecânico do tamanho de uma ilha.",
+    powers:{Força:98, Velocidade:55, Defesa:96, Versatilidade:90},
+    weakness:["Água do mar","Seastone","Objetos orgânicos não podem ser absorvidos"]
+  },
+  {
+    name:"Moa Moa no Mi", pt:"Fruta do Aumento", type:"Paramecia", icon:"📈",
+    user:"Byrnndi World",
+    desc:"Aumenta a velocidade e o tamanho de qualquer objeto tocado em até cem vezes.",
+    ability:"Projéteis lançados tornam-se enormes e velozes como meteoros. Pode aumentar o próprio corpo ou criar ondas de choque amplificadas.",
+    powers:{Força:80, Velocidade:70, Defesa:65, Versatilidade:88},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Hisu Hisu no Mi", pt:"Fruta do Frio Extremo", type:"Paramecia", icon:"❄️",
+    user:"Largo",
+    desc:"Dispara jatos de gás criogênico que congelam instantaneamente qualquer alvo ao contato.",
+    ability:"Congelamento instantâneo em temperaturas abissais. Pode criar barreiras de gelo sólido e imobilizar grupos inteiros em estátuas de gelo.",
+    powers:{Força:72, Velocidade:68, Defesa:75, Versatilidade:80},
+    weakness:["Água do mar","Seastone","Calor intenso reverte o congelamento"]
+  },
+  {
+    name:"Mochi Mochi no Mi — Despertar", pt:"Fruta do Mochi (Despertar)", type:"Paramecia Especial", icon:"🌸",
+    user:"Charlotte Katakuri (Despertar)",
+    desc:"Versão desperta da Mochi Mochi — o ambiente ao redor se transforma em mochi.",
+    ability:"Transforma o chão, paredes e teto em mochi controlável. Cria trampas de ambiente inteiro e projéteis de mochi em escala massiva.",
+    powers:{Força:96, Velocidade:90, Defesa:92, Versatilidade:97},
+    weakness:["Água do mar","Seastone","Fogo e água dissolvem o mochi do ambiente"]
+  },
+  {
+    name:"Ryu Ryu no Mi: Modelo Styracosaurus", pt:"Fruta Dragão: Estiracossauro", type:"Zoan Antigo", icon:"🦕",
+    user:"Black Maria (segunda forma)",
+    desc:"Transforma no estiracossauro, ceratopsídeo com chifres longos e colarinho ósseo imponente.",
+    ability:"Carga com chifres que atravessam cascos de navios. Colarinho ósseo cria escudo natural contra ataques frontais.",
+    powers:{Força:86, Velocidade:68, Defesa:90, Versatilidade:58},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Inu Inu no Mi: Modelo Okuchi-no-Makami", pt:"Fruta Cão: Lobo Divino", type:"Zoan Mítico", icon:"🐺",
+    user:"Yamato",
+    desc:"Transforma no Okuchi-no-Makami, a divindade lobo protetora das montanhas na mitologia japonesa.",
+    ability:"Lobo divino colossal com sopro congelante e força sobrenatural. Considerada a guardiã de Wano — poder sagrado raramente visto.",
+    powers:{Força:94, Velocidade:88, Defesa:85, Versatilidade:88},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Tori Tori no Mi: Modelo Nue", pt:"Fruta Pássaro: Nue", type:"Zoan Mítico", icon:"🦅",
+    user:"Desconhecido",
+    desc:"Transforma no Nue, a criatura quimérica japonesa — cabeça de macaco, corpo de tanuki, cauda de cobra e membros de tigre.",
+    ability:"Grito que causa pesadelos e confusão mental em todos que ouvem. Voo e combate em múltiplas formas simultâneas únicas.",
+    powers:{Força:84, Velocidade:82, Defesa:76, Versatilidade:92},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Horu Horu no Mi — Despertar", pt:"Fruta do Hormônio (Despertar)", type:"Paramecia", icon:"⚡",
+    user:"Emporio Ivankov (Despertar)",
+    desc:"Versão desperta da Horu Horu — pode injetar hormônios em distância sem contato.",
+    ability:"Injeta hormônios a distância em área ampla. Pode afetar grupos inteiros simultaneamente, transformando exércitos ou curando aliados em massa.",
+    powers:{Força:65, Velocidade:70, Defesa:60, Versatilidade:98},
+    weakness:["Água do mar","Seastone","Encurta a vida do receptor"]
+  },
+  {
+    name:"Suke Suke no Mi", pt:"Fruta da Invisibilidade", type:"Paramecia", icon:"👁️",
+    user:"Absalom / Shiryu da Chuva",
+    desc:"Torna o usuário e tudo que toca completamente invisível para qualquer olho.",
+    ability:"Invisibilidade total incluindo roupas e objetos tocados. Shiryu do Barba Negra usa para assassinatos silenciosos imperceptíveis.",
+    powers:{Força:65, Velocidade:85, Defesa:55, Versatilidade:92},
+    weakness:["Água do mar","Seastone","Haki da Observação pode detectar a presença"]
+  },
+  {
+    name:"Jara Jara no Mi", pt:"Fruta da Corrente", type:"Paramecia", icon:"⛓️",
+    user:"Capitan Kidd / Hawkins (conceito)",
+    desc:"Cria e controla correntes de metal que se estendem e se enrolam com força colossal.",
+    ability:"Correntes extensíveis que imobilizam navios e grupos inteiros. Pode criar gaiolas de correntes e usar como chicotes ou lanças de aço.",
+    powers:{Força:82, Velocidade:60, Defesa:75, Versatilidade:78},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Poke Poke no Mi", pt:"Fruta do Bolso", type:"Paramecia", icon:"👜",
+    user:"Blamenco",
+    desc:"Cria bolsos dimensionais no próprio corpo capazes de guardar qualquer objeto de qualquer tamanho.",
+    ability:"Armazena objetos imensos em bolsos corporais. Pode sacar armas gigantes instantaneamente em combate surpreendendo qualquer oponente.",
+    powers:{Força:78, Velocidade:60, Defesa:65, Versatilidade:85},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Ryu Ryu no Mi: Modelo Anquilossauro", pt:"Fruta Dragão: Anquilossauro", type:"Zoan Antigo", icon:"🦕",
+    user:"Hatcha",
+    desc:"Transforma no anquilossauro, o dinossauro com armadura de placas ósseas e cauda em clava.",
+    ability:"Armadura natural de osso impenetrável. Cauda em clava que destrói muralhas. O Zoan Antigo com maior defesa natural de Onigashima.",
+    powers:{Força:90, Velocidade:38, Defesa:98, Versatilidade:50},
+    weakness:["Água do mar","Seastone","Barriga exposta sem armadura"]
+  },
+  {
+    name:"Fuku Fuku no Mi", pt:"Fruta da Roupa", type:"Paramecia", icon:"👘",
+    user:"Kin'emon",
+    desc:"Cria roupas e disfarces tocando pedras ou folhas — qualquer material vira roupa funcional.",
+    ability:"Disfarces perfeitos em segundos para qualquer pessoa. Pode criar uniformes idênticos aos inimigos e disfarçar grandes grupos para infiltração.",
+    powers:{Força:30, Velocidade:45, Defesa:35, Versatilidade:90},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Wapu Wapu no Mi", pt:"Fruta do Teletransporte", type:"Paramecia", icon:"🌀",
+    user:"Paidain",
+    desc:"Teletransporta o usuário e aliados tocados a qualquer local já visitado anteriormente.",
+    ability:"Teletransporte instantâneo sem rastro visível. Pode levar grupos inteiros consigo e reaparecer em qualquer ponto memorizado.",
+    powers:{Força:45, Velocidade:100, Defesa:50, Versatilidade:92},
+    weakness:["Água do mar","Seastone","Só pode ir para lugares já visitados"]
+  },
+  {
+    name:"Mato Mato no Mi", pt:"Fruta do Alvo", type:"Paramecia", icon:"🎯",
+    user:"Vander Decken IX",
+    desc:"Marca qualquer pessoa ou objeto tocado como alvo absoluto — tudo lançado vai diretamente ao alvo.",
+    ability:"Qualquer projétil lançado após marcar um alvo vai inexoravelmente até ele. Pode lançar navios inteiros como mísseis contra o alvo marcado.",
+    powers:{Força:70, Velocidade:65, Defesa:55, Versatilidade:85},
+    weakness:["Água do mar","Seastone","Só pode marcar dois alvos simultaneamente — um por mão"]
+  },
+  {
+    name:"Deri Deri no Mi", pt:"Fruta da Eletricidade", type:"Logia", icon:"⚡",
+    user:"Hackett",
+    desc:"Transforma o usuário em eletricidade pura, capaz de se mover na velocidade da corrente elétrica.",
+    ability:"Corpo intangível de eletricidade que paralisa qualquer inimigo tocado. Pode viajar por superfícies condutoras e criar tempestades elétricas localizadas.",
+    powers:{Força:85, Velocidade:95, Defesa:70, Versatilidade:85},
+    weakness:["Água do mar","Seastone","Materiais isolantes bloqueiam o movimento"]
   },
 ];
 
