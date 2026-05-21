@@ -569,6 +569,118 @@ const fruits = [
     powers:{Força:88, Velocidade:45, Defesa:90, Versatilidade:52},
     weakness:["Água do mar","Seastone"]
   },
+  {
+    name:"Tori Tori no Mi: Modelo Garuda", pt:"Fruta Pássaro: Garuda", type:"Zoan Mítico", icon:"🦚",
+    user:"Shanks (mencionado) / Conceito mítico",
+    desc:"Transforma na Garuda, a ave divina da mitologia hindu e budista — mensageira dos deuses.",
+    ability:"Voo supersônico e garras que perfuram qualquer armadura. Considerada uma das frutas Zoan Míticas mais raras e reverenciadas.",
+    powers:{Força:90, Velocidade:95, Defesa:75, Versatilidade:85},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Inu Inu no Mi: Modelo Kyubi no Kitsune", pt:"Fruta Cão: Raposa de Nove Caudas", type:"Zoan Mítico", icon:"🦊",
+    user:"Catarina Devon (segunda fruta / rumor)",
+    desc:"Transforma na lendária raposa de nove caudas da mitologia japonesa, mestre supremo da ilusão.",
+    ability:"Ilusões absolutamente indistinguíveis da realidade. Pode enganar os sentidos de qualquer ser, incluindo usuários de Haki avançado.",
+    powers:{Força:72, Velocidade:88, Defesa:65, Versatilidade:100},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Hito Hito no Mi: Modelo Daibutsu", pt:"Fruta Humana: Grande Buda", type:"Zoan Mítico", icon:"🗿",
+    user:"Sengoku o Buda",
+    desc:"Transforma no Grande Buda dourado, uma das raras frutas Zoan Míticas de um Almirante da Frota.",
+    ability:"Transforma em gigante dourado que dispara ondas de choque devastadoras. Pode afetar uma área inteira simultaneamente.",
+    powers:{Força:96, Velocidade:50, Defesa:88, Versatilidade:80},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Hito Hito no Mi", pt:"Fruta Humana", type:"Zoan", icon:"🧠",
+    user:"Tony Tony Chopper",
+    desc:"Permite que um animal se transforme em humano — no caso de Chopper, um rena que ganhou consciência humana.",
+    ability:"Sete formas de transformação via Rumble Ball. Walk Point, Brain Point, Heavy Point, Horn Point, Arm Point, Guard Point e Kung Fu Point.",
+    powers:{Força:75, Velocidade:78, Defesa:72, Versatilidade:100},
+    weakness:["Água do mar","Seastone","Overdose de Rumble Ball causa perda de controle"]
+  },
+  {
+    name:"Yomi Yomi no Mi", pt:"Fruta da Ressurreição", type:"Paramecia", icon:"💀",
+    user:"Brook",
+    desc:"Permite ao usuário retornar da morte uma única vez, vinculando a alma ao esqueleto permanentemente.",
+    ability:"Ressurreição única garantida. Alma livre do corpo pode percorrer longas distâncias. Habilidades de gelo da alma que congelam o ar ao redor.",
+    powers:{Força:70, Velocidade:82, Defesa:60, Versatilidade:85},
+    weakness:["Água do mar","Seastone","Ressurreição só funciona uma vez"]
+  },
+  {
+    name:"Shari Shari no Mi", pt:"Fruta da Roda", type:"Paramecia", icon:"⚙️",
+    user:"Sharinguru",
+    desc:"Transforma membros do corpo em rodas giratórias de corte e propulsão.",
+    ability:"Braços e pernas giram a velocidades devastadoras cortando aço. Propulsão de veículo e ataques centrífugos de longo alcance.",
+    powers:{Força:70, Velocidade:80, Defesa:55, Versatilidade:65},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Kage Kage no Mi", pt:"Fruta da Sombra", type:"Paramecia", icon:"🌚",
+    user:"Gecko Moria",
+    desc:"Manipula sombras — pode roubá-las de pessoas, inserindo-as em cadáveres para criar guerreiros.",
+    ability:"Cria um exército de zumbis com sombras roubadas. Quem perde a sombra fraqueja à luz do sol. Controla a própria sombra como guerreiro autônomo.",
+    powers:{Força:85, Velocidade:55, Defesa:70, Versatilidade:95},
+    weakness:["Água do mar","Seastone","Luz do sol destrói zumbis e devolve sombras"]
+  },
+  {
+    name:"Horo Horo no Mi", pt:"Fruta do Fantasma", type:"Paramecia", icon:"👾",
+    user:"Perona",
+    desc:"Projeta fantasmas negativos que drenam a vontade de lutar — e permite projeção astral da consciência.",
+    ability:"Fantasmas Negativos causam depressão instantânea. Corpo astral pode viajar longe enquanto o físico permanece inerte e invulnerável.",
+    powers:{Força:45, Velocidade:65, Defesa:55, Versatilidade:85},
+    weakness:["Água do mar","Seastone","Pessoas naturalmente pessimistas são imunes"]
+  },
+  {
+    name:"Awa Awa no Mi", pt:"Fruta da Bolha", type:"Paramecia", icon:"🫧",
+    user:"Kalifa",
+    desc:"Cria bolhas de sabão que limpam qualquer coisa — inclusive a força e energia de combatentes.",
+    ability:"Bolhas que ao tocar um oponente removem toda a sua força muscular, deixando-o indefeso. Transforma superfícies em escorregadias.",
+    powers:{Força:45, Velocidade:60, Defesa:50, Versatilidade:78},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Doa Doa no Mi", pt:"Fruta da Porta", type:"Paramecia", icon:"🚪",
+    user:"Blueno",
+    desc:"Cria portas em qualquer superfície — paredes, ar, e até no próprio corpo dos inimigos.",
+    ability:"Portais instantâneos em qualquer material. Pode abrir uma porta no ar para teletransporte e criar compartimentos no corpo de adversários.",
+    powers:{Força:72, Velocidade:85, Defesa:68, Versatilidade:90},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Nami Nami no Mi", pt:"Fruta da Onda", type:"Paramecia", icon:"🌊",
+    user:"Charlotte Smoothie",
+    desc:"Espreme qualquer coisa — pessoas, objetos, ambientes — extraindo líquidos e energia vital.",
+    ability:"Espreme humanos e absorve seus líquidos aumentando o próprio tamanho e força. Pode fazer objetos e pessoas encolherem ao serem torcidas.",
+    powers:{Força:90, Velocidade:68, Defesa:80, Versatilidade:82},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Pero Pero no Mi", pt:"Fruta da Bala", type:"Paramecia", icon:"🍭",
+    user:"Charlotte Perospero",
+    desc:"Cria e controla candy — doce sólido que pode imobilizar e encapsular qualquer coisa.",
+    ability:"Armadilhas e prisões de doce cristalizado. Pode criar estruturas inteiras e revestir superfícies com candy praticamente indestrutível.",
+    powers:{Força:82, Velocidade:65, Defesa:88, Versatilidade:85},
+    weakness:["Água do mar","Seastone","Calor e água dissolvem o candy"]
+  },
+  {
+    name:"Ryu Ryu no Mi: Modelo Pteranodonte", pt:"Fruta Dragão: Pteranodonte", type:"Zoan Antigo", icon:"🦇",
+    user:"Page One",
+    desc:"Transforma no pteranodonte, o maior réptil voador já existente — ágil e letal.",
+    ability:"Velocidade de mergulho e bico que perfura navios. Forma híbrida mantém agilidade aérea com força de dinossauro para combate terrestre.",
+    powers:{Força:85, Velocidade:88, Defesa:70, Versatilidade:65},
+    weakness:["Água do mar","Seastone"]
+  },
+  {
+    name:"Ryu Ryu no Mi: Modelo Parasaurolophus", pt:"Fruta Dragão: Parasaurolopho", type:"Zoan Antigo", icon:"🦴",
+    user:"Ulti",
+    desc:"Transforma no parasaurolopho, dinossauro com crista craniana que amplifica ataques de cabeçada.",
+    ability:"Cabeçadas que destroem estruturas inteiras. A crista óssea da forma híbrida concentra força em impactos frontais devastadores.",
+    powers:{Força:88, Velocidade:75, Defesa:85, Versatilidade:60},
+    weakness:["Água do mar","Seastone"]
+  },
 ];
 
 
