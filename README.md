@@ -3,11 +3,17 @@
 
 Um site interativo para explorar e pesquisar as frutas do diabo do universo de One Piece, com filtros por tipo, busca em tempo real e fichas detalhadas de cada fruta.
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+Projeto separado em 3 arquivos: `index.html`, `style.css` e `script.js`.
+
 ---
 
 ## ✨ Funcionalidades
 
-- **Busca em tempo real** — filtra por nome da fruta, nome em português, usuário ou descrição
+- **Busca em tempo real** — filtra por nome da fruta, nome em português, usuário, descrição ou habilidade
 - **Filtros por tipo** — Paramecia, Zoan e Logia com cores distintas
 - **Cards interativos** — clique em qualquer fruta para abrir a ficha completa
 - **Fichas detalhadas** — habilidade completa, barras de estatísticas animadas e fraquezas
@@ -20,37 +26,43 @@ Um site interativo para explorar e pesquisar as frutas do diabo do universo de O
 
 ### Opção 1 — Abrir localmente
 
-Basta baixar o arquivo e abrir no navegador:
-
 ```bash
-# Clique duas vezes no arquivo ou abra via terminal:
-open enciclopedia-frutas-diabo.html        # macOS
-start enciclopedia-frutas-diabo.html       # Windows
-xdg-open enciclopedia-frutas-diabo.html    # Linux
+# Clone o repositório
+git clone https://github.com/Laysa-eSerrao/Enciclopedia-frutas-do-diabo.git
+
+# Entre na pasta
+cd Enciclopedia-frutas-do-diabo
+
+# Abra no navegador
+open index.html        # macOS
+start index.html       # Windows
+xdg-open index.html    # Linux
 ```
 
-### Opção 2 — Hospedar online (Netlify Drop)
+### Opção 2 — GitHub Pages
 
-1. Acesse [netlify.com/drop](https://netlify.com/drop)
-2. Arraste o arquivo `enciclopedia-frutas-diabo.html` para a página
-3. Pronto — você receberá um link público em segundos, sem precisar de conta
+Ative em **Settings → Pages → Branch: main → Save**
 
-### Opção 3 — GitHub Pages
-
-```bash
-git init
-git add enciclopedia-frutas-diabo.html
-git commit -m "feat: enciclopédia das frutas do diabo"
-git branch -M main
-git remote add origin https://github.com/seu-usuario/seu-repo.git
-git push -u origin main
-```
-
-Ative o GitHub Pages em **Settings → Pages → Branch: main** e renomeie o arquivo para `index.html`.
+O site ficará disponível em:
+`https://laysa-eserrao.github.io/Enciclopedia-frutas-do-diabo/`
 
 ---
 
-## 🍇 Frutas catalogadas (44)
+## 📁 Estrutura do projeto
+
+```
+Enciclopedia-frutas-do-diabo/
+├── index.html    # Estrutura HTML — marcação e layout
+├── style.css     # Estilos — variáveis, componentes, animações, responsivo
+├── script.js     # Dados das 69 frutas e toda a lógica de UI
+└── README.md     # Este arquivo
+```
+
+Cada arquivo tem responsabilidade única, facilitando manutenção e leitura do código.
+
+---
+
+## 🍇 Frutas catalogadas (69)
 
 | Fruta | Tipo | Usuário |
 |-------|------|---------|
@@ -99,17 +111,30 @@ Ative o GitHub Pages em **Settings → Pages → Branch: main** e renomeie o arq
 | Ryu Ryu no Mi: Modelo Spinossauro | Zoan Antigo | King a Calamidade |
 | Memo Memo no Mi | Paramecia | Charlotte Pudding |
 | Netsu Netsu no Mi | Paramecia | Charlotte Oven |
-
----
-
-## 🛠️ Estrutura do projeto
-
-```
-enciclopedia-frutas-diabo.html   # arquivo único com HTML + CSS + JS
-README.md                        # este arquivo
-```
-
-O projeto é intencionalmente um arquivo único para máxima portabilidade — sem pastas, sem build, sem servidor.
+| Horu Horu no Mi | Paramecia | Emporio Ivankov |
+| Choki Choki no Mi | Paramecia | Inazuma |
+| Baku Baku no Mi | Paramecia | Wapol |
+| Mane Mane no Mi | Paramecia | Mr. 2 Bon Kurei |
+| Bisu Bisu no Mi | Paramecia | Charlotte Cracker |
+| Shiro Shiro no Mi | Paramecia | Capone Bege |
+| Gasu Gasu no Mi | Logia | Caesar Clown |
+| Yuki Yuki no Mi | Logia | Monet |
+| Numa Numa no Mi | Logia | Caribou |
+| Sui Sui no Mi | Paramecia | Senor Pink |
+| Ton Ton no Mi | Paramecia | Machvise |
+| Hobi Hobi no Mi | Paramecia | Sugar |
+| Nui Nui no Mi | Paramecia | Leo |
+| Giro Giro no Mi | Paramecia | Viola |
+| Ato Ato no Mi | Paramecia | Giolla |
+| Jake Jake no Mi | Paramecia | Kelly Funk |
+| Pamu Pamu no Mi | Paramecia | Gladius |
+| Oshi Oshi no Mi | Paramecia | Yamato |
+| Inu Inu no Mi: Modelo Tanuki | Zoan Mítico | Catarina Devon |
+| Tori Tori no Mi: Modelo Harpia | Zoan Mítico | Black Maria |
+| Ryu Ryu no Mi: Modelo Alossauro | Zoan Antigo | X Drake |
+| Mushi Mushi no Mi: Modelo Kabutomushi | Zoan | Kabu |
+| Sara Sara no Mi: Modelo Axolotl | Zoan | Smiley |
+| Zou Zou no Mi: Modelo Mastodon | Zoan Antigo | Dalton |
 
 ---
 
@@ -124,7 +149,7 @@ O projeto é intencionalmente um arquivo único para máxima portabilidade — s
 
 ## 📌 Como adicionar mais frutas
 
-Abra o arquivo HTML e localize o array `const fruits = [...]`. Adicione um novo objeto seguindo o padrão:
+Abra o `script.js` e adicione um novo objeto no array `fruits`:
 
 ```javascript
 {
@@ -147,9 +172,17 @@ Abra o arquivo HTML e localize o array `const fruits = [...]`. Adicione um novo 
 
 ---
 
+## 👩‍💻 Autora
+
+**Laysa Serrão** — Engenharia de Software · UniBH · Estagiária na Autis Analytics
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Laysa-eSerrao)
+
+---
+
 ## ⚠️ Aviso
 
-Este é um projeto de fã sem fins lucrativos. One Piece é propriedade de **Eiichiro Oda** e **Shueisha**. Nenhum conteúdo oficial (imagens, mangá, anime) foi utilizado ou reproduzido.
+Este é um projeto de fã sem fins lucrativos. One Piece é propriedade de **Eiichiro Oda** e **Shueisha**. Nenhum conteúdo oficial foi reproduzido.
 
 ---
 
