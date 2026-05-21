@@ -17,7 +17,6 @@
 /* ─── 01. DADOS — FRUTAS DO DIABO ───────────────── */
 
 const fruits = [
-  {
     name:"Gomu Gomu no Mi", pt:"Fruta da Borracha", type:"Paramecia", icon:"🌀",
     fruitImg:"", userImg:"",
     user:"Monkey D. Luffy",
@@ -225,7 +224,7 @@ const fruits = [
     weakness:["Água do mar","Seastone","Não funciona em pessoas vivas"]
   },
   {
-    name:"Jiku Jiku no Mi", pt:"Fruta da Dimensão", type:"Paramecia", icon:"🎵",
+    name:"Oto Oto no Mi", pt:"Fruta do Som", type:"Paramecia", icon:"🎵",
     fruitImg:"", userImg:"",
     user:"Scratchmen Apoo",
     desc:"Transforma partes do corpo em instrumentos musicais e sons em ataques físicos.",
@@ -576,15 +575,6 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Oshi Oshi no Mi", pt:"Fruta do Empurrão", type:"Paramecia", icon:"👐",
-    fruitImg:"", userImg:"",
-    user:"Yamato",
-    desc:"Empurra e molda qualquer material sólido com as mãos como se fosse argila mole.",
-    ability:"Deforma pedra e metal empurrando com força sobrenatural. Pode abrir passagens em muros sólidos e esculpir o terreno em batalha.",
-    powers:{Força:88, Velocidade:70, Defesa:72, Versatilidade:75},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
     name:"Inu Inu no Mi: Modelo Tanuki", pt:"Fruta Cão: Tanuki", type:"Zoan Mítico", icon:"🦝",
     fruitImg:"", userImg:"",
     user:"Catarina Devon",
@@ -636,24 +626,6 @@ const fruits = [
     desc:"Transforma no mastodonte pré-histórico, ancestral do elefante com força bruta colossal.",
     ability:"Carga devastadora que destrói fortalezas. Presas gigantescas e massa corporal que esmaga qualquer resistência no caminho.",
     powers:{Força:88, Velocidade:45, Defesa:90, Versatilidade:52},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Tori Tori no Mi: Modelo Garuda", pt:"Fruta Pássaro: Garuda", type:"Zoan Mítico", icon:"🦚",
-    fruitImg:"", userImg:"",
-    user:"Shanks (mencionado) / Conceito mítico",
-    desc:"Transforma na Garuda, a ave divina da mitologia hindu e budista — mensageira dos deuses.",
-    ability:"Voo supersônico e garras que perfuram qualquer armadura. Considerada uma das frutas Zoan Míticas mais raras e reverenciadas.",
-    powers:{Força:90, Velocidade:95, Defesa:75, Versatilidade:85},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Inu Inu no Mi: Modelo Kyubi no Kitsune", pt:"Fruta Cão: Raposa de Nove Caudas", type:"Zoan Mítico", icon:"🦊",
-    fruitImg:"", userImg:"",
-    user:"Catarina Devon (segunda fruta / rumor)",
-    desc:"Transforma na lendária raposa de nove caudas da mitologia japonesa, mestre supremo da ilusão.",
-    ability:"Ilusões absolutamente indistinguíveis da realidade. Pode enganar os sentidos de qualquer ser, incluindo usuários de Haki avançado.",
-    powers:{Força:72, Velocidade:88, Defesa:65, Versatilidade:100},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -717,15 +689,6 @@ const fruits = [
     desc:"Cria portas em qualquer superfície — paredes, ar, e até no próprio corpo dos inimigos.",
     ability:"Portais instantâneos em qualquer material. Pode abrir uma porta no ar para teletransporte e criar compartimentos no corpo de adversários.",
     powers:{Força:72, Velocidade:85, Defesa:68, Versatilidade:90},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Nami Nami no Mi", pt:"Fruta da Onda", type:"Paramecia", icon:"🌊",
-    fruitImg:"", userImg:"",
-    user:"Charlotte Smoothie",
-    desc:"Espreme qualquer coisa — pessoas, objetos, ambientes — extraindo líquidos e energia vital.",
-    ability:"Espreme humanos e absorve seus líquidos aumentando o próprio tamanho e força. Pode fazer objetos e pessoas encolherem ao serem torcidas.",
-    powers:{Força:90, Velocidade:68, Defesa:80, Versatilidade:82},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -810,15 +773,6 @@ const fruits = [
     weakness:["Água do mar","Seastone","Ineficaz em superfícies duras como rocha"]
   },
   {
-    name:"Ami Ami no Mi", pt:"Fruta da Rede", type:"Paramecia", icon:"🕸️",
-    fruitImg:"", userImg:"",
-    user:"Charlotte Katakuri (habilidade) / Net concept",
-    desc:"Cria redes de fibras extremamente resistentes que capturam e imobilizam oponentes.",
-    ability:"Redes lançadas a distância com fibras mais resistentes que o aço. Pode criar armadilhas invisíveis espalhadas por uma área ampla.",
-    powers:{Força:55, Velocidade:60, Defesa:65, Versatilidade:80},
-    weakness:["Água do mar","Seastone","Objetos cortantes destroem as fibras"]
-  },
-  {
     name:"Mira Mira no Mi", pt:"Fruta do Espelho", type:"Paramecia", icon:"🪞",
     fruitImg:"", userImg:"",
     user:"Charlotte Brulee",
@@ -828,39 +782,12 @@ const fruits = [
     weakness:["Água do mar","Seastone","Espelhos quebrados destroem os portais"]
   },
   {
-    name:"Shibo Shibo no Mi", pt:"Fruta da Espremida", type:"Paramecia", icon:"🍋",
-    fruitImg:"", userImg:"",
-    user:"Charlotte Smoothie (variante)",
-    desc:"Espreme qualquer material orgânico ou inorgânico extraindo sua essência concentrada.",
-    ability:"Pode espremer até o ar extraindo umidade. Corpos espremidos ficam completamente desidratados e incapacitados permanentemente.",
-    powers:{Força:85, Velocidade:62, Defesa:75, Versatilidade:80},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
     name:"Ryu Ryu no Mi: Modelo Triceratops", pt:"Fruta Dragão: Triceratops", type:"Zoan Antigo", icon:"🦕",
     fruitImg:"", userImg:"",
     user:"Sasaki",
     desc:"Transforma no triceratops, o dinossauro com três chifres mais reconhecível da história.",
     ability:"Carga com três chifres que perfuram o aço. Colar de ossos rotativo que cria propulsão como helicóptero para voo em forma híbrida.",
     powers:{Força:90, Velocidade:65, Defesa:88, Versatilidade:62},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Tori Tori no Mi: Modelo Albatross", pt:"Fruta Pássaro: Albatroz", type:"Zoan", icon:"🦢",
-    fruitImg:"", userImg:"",
-    user:"Morgan (Capitão Axe-hand)",
-    desc:"Transforma no albatroz, ave oceânica com a maior envergadura de asas do mundo aviário.",
-    ability:"Voo de longuíssima distância sem pousar. Visão aguçada para navegar e detectar navios e ilhas a centenas de quilômetros.",
-    powers:{Força:58, Velocidade:78, Defesa:52, Versatilidade:65},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Inu Inu no Mi: Modelo Corgi", pt:"Fruta Cão: Corgi", type:"Zoan", icon:"🐕",
-    fruitImg:"", userImg:"",
-    user:"Onigumo",
-    desc:"Transforma em corgi ou forma híbrida com sentidos caninos extremamente aguçados.",
-    ability:"Faro que rastreia qualquer pessoa pelo cheiro a quilômetros de distância. Velocidade de corrida aumentada em forma híbrida.",
-    powers:{Força:62, Velocidade:75, Defesa:55, Versatilidade:65},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -873,57 +800,12 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Uma Uma no Mi", pt:"Fruta do Cavalo", type:"Zoan", icon:"🐴",
-    fruitImg:"", userImg:"",
-    user:"Stronger",
-    desc:"Transforma em cavalo comum ou forma híbrida com resistência e velocidade equina aumentadas.",
-    ability:"Velocidade e resistência de cavalo de corrida. Forma híbrida mantém agilidade para transporte rápido em terreno difícil.",
-    powers:{Força:65, Velocidade:80, Defesa:60, Versatilidade:50},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Tori Tori no Mi: Modelo Pássaro Flamingo", pt:"Fruta Pássaro: Flamingo", type:"Zoan", icon:"🦩",
-    fruitImg:"", userImg:"",
-    user:"Conceito / canon menor",
-    desc:"Transforma no flamingo, ave com equilíbrio e agilidade extraordinários.",
-    ability:"Equilíbrio perfeito em qualquer superfície. Forma híbrida é altamente ágil e usa os pés como armas contundentes poderosas.",
-    powers:{Força:55, Velocidade:72, Defesa:50, Versatilidade:60},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Hana Hana no Mi — Gigante", pt:"Fruta da Flor (Despertar)", type:"Paramecia", icon:"🌺",
-    fruitImg:"", userImg:"",
-    user:"Nico Robin (Despertar)",
-    desc:"Versão desperta da Hana Hana — Robin se transforma completamente em gigante feita de pétalas.",
-    ability:"Transforma o próprio corpo em gigante de flores. Escala colossal para combate direto mantendo todas as habilidades da fruta original.",
-    powers:{Força:90, Velocidade:55, Defesa:80, Versatilidade:97},
-    weakness:["Água do mar","Seastone","Dano reflete no usuário"]
-  },
-  {
-    name:"Gomu Gomu no Mi — Gear 5", pt:"Fruta da Borracha (Gear 5)", type:"Paramecia", icon:"☀️",
-    fruitImg:"", userImg:"",
-    user:"Monkey D. Luffy (Despertar)",
-    desc:"O verdadeiro nome é Hito Hito no Mi: Modelo Nika — o Deus do Sol da Alegria. A fruta mais estranha do mundo.",
-    ability:"Gear 5: corpo que age como cartoon, dobrando as regras da física. Pode tornar o ambiente ao redor em borracha e rir na face do perigo.",
-    powers:{Força:100, Velocidade:100, Defesa:95, Versatilidade:100},
-    weakness:["Água do mar","Seastone","Consome energia vital rapidamente"]
-  },
-  {
     name:"Neko Neko no Mi: Modelo Saber Tiger", pt:"Fruta Gato: Tigre Dente-de-Sabre", type:"Zoan Antigo", icon:"🐯",
     fruitImg:"", userImg:"",
     user:"Who's-Who",
     desc:"Transforma no tigre-dente-de-sabre pré-histórico, o felino mais letal já existente.",
     ability:"Presas de sabre que rasgam qualquer armadura. Forma híbrida combina velocidade felina com garras do tamanho de espadas.",
     powers:{Força:88, Velocidade:90, Defesa:72, Versatilidade:75},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Tori Tori no Mi: Modelo Archaeopteryx", pt:"Fruta Pássaro: Archaeopteryx", type:"Zoan Antigo", icon:"🦅",
-    fruitImg:"", userImg:"",
-    user:"Gifters de Kaidou (unnamed)",
-    desc:"Transforma na archaeopteryx, o elo evolutivo entre dinossauros e aves modernas.",
-    ability:"Combina garras de dinossauro com asas primitivas. Velocidade de voo surpreendente aliada a força de réptil pré-histórico.",
-    powers:{Força:78, Velocidade:82, Defesa:65, Versatilidade:68},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -947,7 +829,7 @@ const fruits = [
   {
     name:"Fude Fude no Mi", pt:"Fruta do Pincel", type:"Paramecia", icon:"🖌️",
     fruitImg:"", userImg:"",
-    user:"Kurozumi Higurashi",
+    user:"Kurozumi Semimaru",
     desc:"Cria criaturas e objetos reais a partir de pinturas — tudo que é desenhado ganha vida.",
     ability:"Animais e humanos pintados tornam-se reais e obedecem ao criador. Ilusões perfeitas indistinguíveis da realidade para os cinco sentidos.",
     powers:{Força:50, Velocidade:55, Defesa:45, Versatilidade:97},
@@ -987,15 +869,6 @@ const fruits = [
     desc:"Evoca um gênio imenso de uma garrafa mágica que obedece e ataca por conta própria.",
     ability:"Gênio colossal que emerge do ventre do usuário ao esfregar o estômago. Força devastadora e braços que varrem exércitos.",
     powers:{Força:88, Velocidade:55, Defesa:75, Versatilidade:72},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Vino Vino no Mi", pt:"Fruta do Vinho", type:"Paramecia", icon:"🍷",
-    fruitImg:"", userImg:"",
-    user:"Babe",
-    desc:"Infla partes do corpo com pressão de vinho fermentado, criando explosões orgânicas.",
-    ability:"Membros que incham e explodem com força de canhão. Pode direcionar a explosão com precisão cirúrgica em qualquer direção.",
-    powers:{Força:72, Velocidade:55, Defesa:60, Versatilidade:68},
     weakness:["Água do mar","Seastone"]
   },
   {
@@ -1062,33 +935,6 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Hisu Hisu no Mi", pt:"Fruta do Frio Extremo", type:"Paramecia", icon:"❄️",
-    fruitImg:"", userImg:"",
-    user:"Largo",
-    desc:"Dispara jatos de gás criogênico que congelam instantaneamente qualquer alvo ao contato.",
-    ability:"Congelamento instantâneo em temperaturas abissais. Pode criar barreiras de gelo sólido e imobilizar grupos inteiros em estátuas de gelo.",
-    powers:{Força:72, Velocidade:68, Defesa:75, Versatilidade:80},
-    weakness:["Água do mar","Seastone","Calor intenso reverte o congelamento"]
-  },
-  {
-    name:"Mochi Mochi no Mi — Despertar", pt:"Fruta do Mochi (Despertar)", type:"Paramecia Especial", icon:"🌸",
-    fruitImg:"", userImg:"",
-    user:"Charlotte Katakuri (Despertar)",
-    desc:"Versão desperta da Mochi Mochi — o ambiente ao redor se transforma em mochi.",
-    ability:"Transforma o chão, paredes e teto em mochi controlável. Cria trampas de ambiente inteiro e projéteis de mochi em escala massiva.",
-    powers:{Força:96, Velocidade:90, Defesa:92, Versatilidade:97},
-    weakness:["Água do mar","Seastone","Fogo e água dissolvem o mochi do ambiente"]
-  },
-  {
-    name:"Ryu Ryu no Mi: Modelo Styracosaurus", pt:"Fruta Dragão: Estiracossauro", type:"Zoan Antigo", icon:"🦕",
-    fruitImg:"", userImg:"",
-    user:"Black Maria (segunda forma)",
-    desc:"Transforma no estiracossauro, ceratopsídeo com chifres longos e colarinho ósseo imponente.",
-    ability:"Carga com chifres que atravessam cascos de navios. Colarinho ósseo cria escudo natural contra ataques frontais.",
-    powers:{Força:86, Velocidade:68, Defesa:90, Versatilidade:58},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
     name:"Inu Inu no Mi: Modelo Okuchi-no-Makami", pt:"Fruta Cão: Lobo Divino", type:"Zoan Mítico", icon:"🐺",
     fruitImg:"", userImg:"",
     user:"Yamato",
@@ -1098,24 +944,6 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Tori Tori no Mi: Modelo Nue", pt:"Fruta Pássaro: Nue", type:"Zoan Mítico", icon:"🦅",
-    fruitImg:"", userImg:"",
-    user:"Desconhecido",
-    desc:"Transforma no Nue, a criatura quimérica japonesa — cabeça de macaco, corpo de tanuki, cauda de cobra e membros de tigre.",
-    ability:"Grito que causa pesadelos e confusão mental em todos que ouvem. Voo e combate em múltiplas formas simultâneas únicas.",
-    powers:{Força:84, Velocidade:82, Defesa:76, Versatilidade:92},
-    weakness:["Água do mar","Seastone"]
-  },
-  {
-    name:"Horu Horu no Mi — Despertar", pt:"Fruta do Hormônio (Despertar)", type:"Paramecia", icon:"⚡",
-    fruitImg:"", userImg:"",
-    user:"Emporio Ivankov (Despertar)",
-    desc:"Versão desperta da Horu Horu — pode injetar hormônios em distância sem contato.",
-    ability:"Injeta hormônios a distância em área ampla. Pode afetar grupos inteiros simultaneamente, transformando exércitos ou curando aliados em massa.",
-    powers:{Força:65, Velocidade:70, Defesa:60, Versatilidade:98},
-    weakness:["Água do mar","Seastone","Encurta a vida do receptor"]
-  },
-  {
     name:"Suke Suke no Mi", pt:"Fruta da Invisibilidade", type:"Paramecia", icon:"👁️",
     fruitImg:"", userImg:"",
     user:"Absalom / Shiryu da Chuva",
@@ -1123,15 +951,6 @@ const fruits = [
     ability:"Invisibilidade total incluindo roupas e objetos tocados. Shiryu do Barba Negra usa para assassinatos silenciosos imperceptíveis.",
     powers:{Força:65, Velocidade:85, Defesa:55, Versatilidade:92},
     weakness:["Água do mar","Seastone","Haki da Observação pode detectar a presença"]
-  },
-  {
-    name:"Jara Jara no Mi", pt:"Fruta da Corrente", type:"Paramecia", icon:"⛓️",
-    fruitImg:"", userImg:"",
-    user:"Capitan Kidd / Hawkins (conceito)",
-    desc:"Cria e controla correntes de metal que se estendem e se enrolam com força colossal.",
-    ability:"Correntes extensíveis que imobilizam navios e grupos inteiros. Pode criar gaiolas de correntes e usar como chicotes ou lanças de aço.",
-    powers:{Força:82, Velocidade:60, Defesa:75, Versatilidade:78},
-    weakness:["Água do mar","Seastone"]
   },
   {
     name:"Poke Poke no Mi", pt:"Fruta do Bolso", type:"Paramecia", icon:"👜",
@@ -1161,15 +980,6 @@ const fruits = [
     weakness:["Água do mar","Seastone"]
   },
   {
-    name:"Wapu Wapu no Mi", pt:"Fruta do Teletransporte", type:"Paramecia", icon:"🌀",
-    fruitImg:"", userImg:"",
-    user:"Paidain",
-    desc:"Teletransporta o usuário e aliados tocados a qualquer local já visitado anteriormente.",
-    ability:"Teletransporte instantâneo sem rastro visível. Pode levar grupos inteiros consigo e reaparecer em qualquer ponto memorizado.",
-    powers:{Força:45, Velocidade:100, Defesa:50, Versatilidade:92},
-    weakness:["Água do mar","Seastone","Só pode ir para lugares já visitados"]
-  },
-  {
     name:"Mato Mato no Mi", pt:"Fruta do Alvo", type:"Paramecia", icon:"🎯",
     fruitImg:"", userImg:"",
     user:"Vander Decken IX",
@@ -1187,232 +997,48 @@ const fruits = [
     powers:{Força:85, Velocidade:95, Defesa:70, Versatilidade:85},
     weakness:["Água do mar","Seastone","Materiais isolantes bloqueiam o movimento"]
   },
-];
-
-
-/* ─── 02. ESTADO DA UI ──────────────────────────── */
-
-let currentFilter = 'all';
-
-
-/* ─── 03. FUNÇÕES UTILITÁRIAS ───────────────────── */
-
-// Retorna a classe CSS baseada no tipo da fruta
-function typeClass(t) {
-  if (t.includes('Paramecia')) return 'paramecia';
-  if (t.includes('Zoan'))      return 'zoan';
-  return 'logia';
-}
-
-// Retorna o rótulo de exibição do tipo
-function typeLabel(t) {
-  if (t.includes('Paramecia')) return t;
-  if (t.includes('Zoan'))      return t;
-  return 'Logia';
-}
-
-
-/* ─── 04. FILTROS E BUSCA ───────────────────────── */
-
-function setFilter(type) {
-  currentFilter = type;
-
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.className = 'filter-btn';
-    if (btn.dataset.type === type) {
-      if      (type === 'all')      btn.classList.add('active-all');
-      else if (type === 'Paramecia') btn.classList.add('active-param');
-      else if (type === 'Zoan')      btn.classList.add('active-zoan');
-      else if (type === 'Logia')     btn.classList.add('active-logia');
-    }
-  });
-
-  render();
-}
-
-function getFiltered() {
-  const q = document.getElementById('search').value.toLowerCase().trim();
-
-  return fruits.filter(f => {
-    const matchType   = currentFilter === 'all' || f.type.includes(currentFilter);
-    const matchSearch = !q
-      || f.name.toLowerCase().includes(q)
-      || f.pt.toLowerCase().includes(q)
-      || f.user.toLowerCase().includes(q)
-      || f.desc.toLowerCase().includes(q)
-      || f.ability.toLowerCase().includes(q);
-
-    return matchType && matchSearch;
-  });
-}
-
-
-/* ─── 05. RENDER — GRID DE CARDS ────────────────── */
-
-function render() {
-  const filtered = getFiltered();
-  const total    = filtered.length;
-
-  document.getElementById('count').textContent =
-    `${total} fruta${total !== 1 ? 's' : ''} encontrada${total !== 1 ? 's' : ''} nas archives`;
-
-  const grid = document.getElementById('grid');
-
-  if (!total) {
-    grid.innerHTML = '<div class="empty">Nenhuma fruta encontrada nas archives do Grand Line…</div>';
-    return;
-  }
-
-  grid.innerHTML = filtered.map((f, i) => {
-    const idx = fruits.indexOf(f);
-
-    const coverHtml = f.fruitImg
-      ? `<img class="card-cover" src="${f.fruitImg}" alt="${f.name}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
-      : '';
-    const placeholderHtml = `<div class="card-cover-placeholder" ${f.fruitImg ? 'style="display:none"' : ''}>${f.icon}</div>`;
-
-    return `
-      <div class="card ${typeClass(f.type)}"
-           onclick="openModal(${idx})"
-           style="animation-delay:${i * 0.04}s"
-           role="button"
-           tabindex="0"
-           onkeydown="if(event.key==='Enter') openModal(${idx})">
-
-        ${coverHtml}${placeholderHtml}
-
-        <div class="card-body">
-          <div class="card-top">
-            <div class="fruit-name">${f.name}</div>
-            <span class="type-badge">${typeLabel(f.type)}</span>
-          </div>
-
-          <div class="fruit-name-pt">${f.pt}</div>
-
-          <div class="user-row">
-            <span class="user-dot"></span>
-            <span class="user-name">Usuário: <strong>${f.user.split('/')[0].trim()}</strong></span>
-          </div>
-
-          <div class="desc">${f.desc}</div>
-        </div>
-      </div>
-    `;
-  }).join('');
-}
-
-
-/* ─── 06. RENDER — MODAL ────────────────────────── */
-
-function openModal(idx) {
-  const f         = fruits[idx];
-  const tc        = typeClass(f.type);
-  const fillClass = tc + '-fill';
-  const modal     = document.getElementById('modal');
-
-  // Imagem da fruta — real ou placeholder com emoji
-  const fruitImgHtml = f.fruitImg
-    ? `<img class="modal-fruit-img" src="${f.fruitImg}" alt="${f.name}"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
-    : '';
-  const fruitPlaceholder = `<div class="modal-fruit-placeholder" ${f.fruitImg ? 'style="display:none"' : ''}>${f.icon}</div>`;
-
-  // Avatar do usuário — real ou placeholder com emoji 👤
-  const userAvatarHtml = f.userImg
-    ? `<img class="modal-user-avatar" src="${f.userImg}" alt="${f.user}"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
-    : '';
-  const userPlaceholder = `<div class="modal-user-avatar-placeholder" ${f.userImg ? 'style="display:none"' : ''}>👤</div>`;
-
-  const powerBars = Object.entries(f.powers).map(([k, v]) => `
-    <div class="power-row">
-      <div class="power-label">${k}</div>
-      <div class="power-track">
-        <div class="power-fill ${fillClass}" style="width:0%" data-target="${v}"></div>
-      </div>
-      <div class="power-value">${v}</div>
-    </div>
-  `).join('');
-
-  const weaknessPills = f.weakness
-    .map(w => `<span class="weakness-pill">${w}</span>`)
-    .join('');
-
-  modal.innerHTML = `
-    <button class="modal-close" onclick="closeModal()" aria-label="Fechar">×</button>
-
-    ${fruitImgHtml}${fruitPlaceholder}
-
-    <h2>${f.name}</h2>
-    <div class="modal-pt">${f.pt}</div>
-
-    <div class="modal-badge-row">
-      <span class="type-badge ${tc}">${typeLabel(f.type)}</span>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="modal-section">
-      <div class="modal-label">Usuário(s) Conhecido(s)</div>
-      <div class="modal-user-row">
-        ${userAvatarHtml}${userPlaceholder}
-        <div class="modal-user-info">
-          <span class="modal-user-label">Usuário</span>
-          <span class="modal-user-name">${f.user}</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-label">Descrição</div>
-      <div class="modal-text" style="font-style:italic;color:var(--muted)">${f.desc}</div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-label">Habilidade Detalhada</div>
-      <div class="modal-text">${f.ability}</div>
-    </div>
-
-    <div class="divider"></div>
-
-    <div class="modal-section">
-      <div class="modal-label">Estatísticas de Poder</div>
-      <div class="power-bar">${powerBars}</div>
-    </div>
-
-    <div class="modal-section">
-      <div class="modal-label">Fraquezas</div>
-      <div style="margin-top:4px">${weaknessPills}</div>
-    </div>
-  `;
-
-  document.getElementById('overlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-
-  setTimeout(() => {
-    modal.querySelectorAll('.power-fill').forEach(bar => {
-      bar.style.width = bar.dataset.target + '%';
-    });
-  }, 150);
-}
-
-function closeModal() {
-  document.getElementById('overlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function closeModalOutside(e) {
-  if (e.target === document.getElementById('overlay')) closeModal();
-}
-
-
-/* ─── 07. EVENTOS GLOBAIS ───────────────────────── */
-
-document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
-});
-
-
-/* ─── 08. INICIALIZAÇÃO ─────────────────────────── */
-
-render();
+  {
+    name:"Jiki Jiki no Mi", pt:"Fruta do Magnetismo", type:"Paramecia", icon:"🧲",
+    fruitImg:"", userImg:"",
+    user:"Eustass Kid",
+    desc:"Permite ao usuário controlar campos magnéticos e metais ao redor com precisão absoluta.",
+    ability:"Atrai e repele metais em qualquer direção. Pode criar braços gigantes de metal fundido e lançar projéteis metálicos em velocidade devastadora. Despertar permite magnetizar o próprio oponente.",
+    powers:{Força:92, Velocidade:70, Defesa:75, Versatilidade:90},
+    weakness:["Água do mar","Seastone","Materiais não-metálicos são imunes"]
+  },
+  {
+    name:"Shiku Shiku no Mi", pt:"Fruta da Doença", type:"Paramecia", icon:"🦠",
+    fruitImg:"", userImg:"",
+    user:"Doc Q",
+    desc:"Cria e transmite doenças sobrenaturais que alteram o corpo e a mente das vítimas.",
+    ability:"Infecta oponentes com doenças que mudam o sexo, paralisam ou causam desmaios. Pode criar epidemias em área ou focar em um único alvo.",
+    powers:{Força:55, Velocidade:50, Defesa:48, Versatilidade:88},
+    weakness:["Água do mar","Seastone","Haki do Rei Conquistador imuniza o usuário"]
+  },
+  {
+    name:"Fufu Fufu no Mi", pt:"Fruta das Ilhas", type:"Paramecia", icon:"🏝️",
+    fruitImg:"", userImg:"",
+    user:"Avalo Pizarro",
+    desc:"Funde o usuário com ilhas inteiras, controlando o próprio território como extensão do corpo.",
+    ability:"Torna o terreno de uma ilha parte do próprio corpo. Pode erguer muros de pedra, criar tsunamis e lançar partes da ilha como projéteis colossal.",
+    powers:{Força:95, Velocidade:30, Defesa:98, Versatilidade:82},
+    weakness:["Água do mar","Seastone","Requer estar em contato com terra sólida"]
+  },
+  {
+    name:"Tama Tama no Mi", pt:"Fruta do Ovo", type:"Zoan", icon:"🥚",
+    fruitImg:"", userImg:"",
+    user:"Tamago",
+    desc:"Transforma o usuário em ovo — e ao ser destruído, renasce em forma progressivamente mais poderosa.",
+    ability:"Ciclo de renascimento: Ovo → Pintinho → Galinha completa. Cada derrota torna o renascimento mais forte e resistente.",
+    powers:{Força:80, Velocidade:65, Defesa:92, Versatilidade:75},
+    weakness:["Água do mar","Seastone","Ciclo de renascimento tem limite"]
+  },
+  {
+    name:"Bata Bata no Mi", pt:"Fruta da Manteiga", type:"Paramecia", icon:"🧈",
+    fruitImg:"", userImg:"",
+    user:"Charlotte Galette",
+    desc:"Cria e controla manteiga — substância escorregadia que imobiliza e desacelera qualquer alvo.",
+    ability:"Manteiga que reveste superfícies tornando-as intransponíveis. Pode criar prisões gordurosas e lançar projéteis de manteiga derretida.",
+    powers:{Força:65, Velocidade:60, Defesa:75, Versatilidade:80},
+    weakness:["Água do mar","Seastone","Calor extremo derrete a manteiga"]
+  },
