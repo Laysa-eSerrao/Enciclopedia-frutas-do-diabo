@@ -1,4 +1,4 @@
-# 🍎 Enciclopédia das Frutas do Diabo
+# Enciclopédia das Frutas do Diabo
 ### Grand Line Archives — One Piece Fan Project
 
 Um site interativo para explorar e pesquisar as frutas do diabo do universo de One Piece, com filtros por tipo, busca em tempo real e fichas detalhadas de cada fruta.
@@ -11,7 +11,7 @@ Projeto separado em 3 arquivos: `index.html`, `style.css` e `script.js`.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Busca em tempo real** — filtra por nome da fruta, nome em português, usuário, descrição ou habilidade
 - **Filtros por tipo** — Paramecia, Zoan e Logia com cores distintas
@@ -22,33 +22,7 @@ Projeto separado em 3 arquivos: `index.html`, `style.css` e `script.js`.
 
 ---
 
-## 🚀 Como usar
-
-### Opção 1 — Abrir localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/Laysa-eSerrao/Enciclopedia-frutas-do-diabo.git
-
-# Entre na pasta
-cd Enciclopedia-frutas-do-diabo
-
-# Abra no navegador
-open index.html        # macOS
-start index.html       # Windows
-xdg-open index.html    # Linux
-```
-
-### Opção 2 — GitHub Pages
-
-Ative em **Settings → Pages → Branch: main → Save**
-
-O site ficará disponível em:
-`https://laysa-eserrao.github.io/Enciclopedia-frutas-do-diabo/`
-
----
-
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 Enciclopedia-frutas-do-diabo/
@@ -62,7 +36,7 @@ Cada arquivo tem responsabilidade única, facilitando manutenção e leitura do 
 
 ---
 
-## 🍇 Frutas catalogadas (114)
+## Frutas catalogadas (114)
 
 | Fruta | Tipo | Usuário |
 |-------|------|---------|
@@ -183,16 +157,16 @@ Cada arquivo tem responsabilidade única, facilitando manutenção e leitura do 
 
 ---
 
-## 🎨 Design
+## Design
 
-- **Tema:** dark, inspirado no visual misterioso do Grand Line
+- **Tema:** dark
 - **Paleta:** roxo (Paramecia), laranja (Zoan), azul (Logia)
 - **Tipografia:** Cinzel (títulos) + Crimson Pro (corpo)
 - **Animações:** entrada em cascata dos cards, barras de poder animadas no modal
 
 ---
 
-## 📌 Como adicionar mais frutas
+## Como adicionar mais frutas
 
 Abra o `script.js` e adicione um novo objeto no array `fruits`:
 
@@ -217,7 +191,7 @@ Abra o `script.js` e adicione um novo objeto no array `fruits`:
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Laysa Serrão** — Engenharia de Software · UniBH · Estagiária na Autis Analytics
 
@@ -225,7 +199,7 @@ Abra o `script.js` e adicione um novo objeto no array `fruits`:
 
 ---
 
-## ⚠️ Aviso
+## Aviso
 
 Este é um projeto de fã sem fins lucrativos. One Piece é propriedade de **Eiichiro Oda** e **Shueisha**. Nenhum conteúdo oficial foi reproduzido.
 
