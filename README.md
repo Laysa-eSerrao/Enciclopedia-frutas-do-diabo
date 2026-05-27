@@ -54,7 +54,7 @@ O site ficará disponível em:
 Enciclopedia-frutas-do-diabo/
 ├── index.html    # Estrutura HTML — marcação e layout
 ├── style.css     # Estilos — variáveis, componentes, animações, responsivo
-├── script.js     # Dados das 69 frutas e toda a lógica de UI
+├── script.js     # Dados das 114 frutas e toda a lógica de UI
 └── README.md     # Este arquivo
 ```
 
@@ -62,34 +62,34 @@ Cada arquivo tem responsabilidade única, facilitando manutenção e leitura do 
 
 ---
 
-## 🍇 Frutas catalogadas (69)
+## 🍇 Frutas catalogadas (114)
 
 | Fruta | Tipo | Usuário |
 |-------|------|---------|
 | Gomu Gomu no Mi | Paramecia | Monkey D. Luffy |
 | Mera Mera no Mi | Logia | Portgas D. Ace / Sabo |
 | Hie Hie no Mi | Logia | Aokiji / Kuzan |
-| Gura Gura no Mi | Paramecia | Barba Branca / Barba Negra |
+| Gura Gura no Mi | Paramecia | Edward Newgate (Barba Branca) / Marshall D. Teach |
 | Ope Ope no Mi | Paramecia | Trafalgar D. Water Law |
-| Yami Yami no Mi | Logia | Marshall D. Teach |
-| Pika Pika no Mi | Logia | Kizaru / Borsalino |
-| Magu Magu no Mi | Logia | Akainu / Sakazuki |
-| Tori Tori no Mi: Fênix | Zoan Mítico | Marco o Fênix |
+| Yami Yami no Mi | Logia | Marshall D. Teach (Barba Negra) |
+| Pika Pika no Mi | Logia | Borsalino (Kizaru) |
+| Magu Magu no Mi | Logia | Sakazuki (Akainu) |
+| Tori Tori no Mi: Modelo Fênix | Zoan Mítico | Marco o Fênix |
 | Ito Ito no Mi | Paramecia | Donquixote Doflamingo |
 | Nikyu Nikyu no Mi | Paramecia | Bartholomew Kuma |
 | Suna Suna no Mi | Logia | Sir Crocodile |
 | Hana Hana no Mi | Paramecia | Nico Robin |
 | Bari Bari no Mi | Paramecia | Bartolomeo |
 | Mochi Mochi no Mi | Paramecia Especial | Charlotte Katakuri |
-| Zou Zou no Mi: Mamute | Zoan Antigo | Jack o Calamidade |
+| Zou Zou no Mi: Modelo Mamute | Zoan Antigo | Jack 'o Calamidade' |
 | Wara Wara no Mi | Paramecia | Basil Hawkins |
 | Noro Noro no Mi | Paramecia | Foxy o Raposo Prateado |
 | Doku Doku no Mi | Paramecia | Magellan |
 | Horo Horo no Mi | Paramecia | Perona |
-| Uo Uo no Mi: Dragão | Zoan Mítico | Kaidou dos Cem Feras |
+| Uo Uo no Mi: Modelo Dragão Celestial | Zoan Mítico | Kaidou dos Cem Feras |
 | Soru Soru no Mi | Paramecia | Charlotte Linlin (Big Mom) |
 | Fuwa Fuwa no Mi | Paramecia | Shiki o Leão Dourado |
-| Jiku Jiku no Mi | Paramecia | Scratchmen Apoo |
+| Oto Oto no Mi | Paramecia | Scratchmen Apoo |
 | Bomu Bomu no Mi | Paramecia | Mr. 5 |
 | Kilo Kilo no Mi | Paramecia | Miss Valentine |
 | Sube Sube no Mi | Paramecia | Alvida |
@@ -128,13 +128,58 @@ Cada arquivo tem responsabilidade única, facilitando manutenção e leitura do 
 | Ato Ato no Mi | Paramecia | Giolla |
 | Jake Jake no Mi | Paramecia | Kelly Funk |
 | Pamu Pamu no Mi | Paramecia | Gladius |
-| Oshi Oshi no Mi | Paramecia | Yamato |
 | Inu Inu no Mi: Modelo Tanuki | Zoan Mítico | Catarina Devon |
 | Tori Tori no Mi: Modelo Harpia | Zoan Mítico | Black Maria |
 | Ryu Ryu no Mi: Modelo Alossauro | Zoan Antigo | X Drake |
 | Mushi Mushi no Mi: Modelo Kabutomushi | Zoan | Kabu |
 | Sara Sara no Mi: Modelo Axolotl | Zoan | Smiley |
 | Zou Zou no Mi: Modelo Mastodon | Zoan Antigo | Dalton |
+| Hito Hito no Mi: Modelo Daibutsu | Zoan Mítico | Sengoku o Buda |
+| Hito Hito no Mi | Zoan | Tony Tony Chopper |
+| Yomi Yomi no Mi | Paramecia | Brook |
+| Shari Shari no Mi | Paramecia | Sharinguru |
+| Kage Kage no Mi | Paramecia | Gecko Moria |
+| Awa Awa no Mi | Paramecia | Kalifa |
+| Doa Doa no Mi | Paramecia | Blueno |
+| Pero Pero no Mi | Paramecia | Charlotte Perospero |
+| Ryu Ryu no Mi: Modelo Pteranodonte | Zoan Antigo | Page One |
+| Ryu Ryu no Mi: Modelo Parasaurolophus | Zoan Antigo | Ulti |
+| Buki Buki no Mi | Paramecia | Baby 5 |
+| Ishi Ishi no Mi | Paramecia | Pica |
+| Bane Bane no Mi | Paramecia | Bellamy o Manticora |
+| Toro Toro no Mi | Paramecia | Honey Queen |
+| Sabi Sabi no Mi | Paramecia | Maynard |
+| Mogu Mogu no Mi | Zoan | Miss Merry Christmas |
+| Mira Mira no Mi | Paramecia | Charlotte Brulee |
+| Ryu Ryu no Mi: Modelo Triceratops | Zoan Antigo | Sasaki |
+| Ushi Ushi no Mi: Modelo Girafa | Zoan | Kaku |
+| Neko Neko no Mi: Modelo Saber Tiger | Zoan Antigo | Who's-Who |
+| Mushi Mushi no Mi: Modelo Suzumebachi | Zoan | Bian |
+| Uo Uo no Mi: Modelo Yamata no Orochi | Zoan Mítico | Kurozumi Orochi |
+| Fude Fude no Mi | Paramecia | Kurozumi Semimaru |
+| Kibi Kibi no Mi | Paramecia | Tama |
+| Mero Mero no Mi | Paramecia | Boa Hancock |
+| Woshu Woshu no Mi | Paramecia | Tsuru |
+| Soku Soku no Mi | Paramecia | Charlotte Daifuku |
+| Toki Toki no Mi | Paramecia | Kozuki Toki |
+| Zushi Zushi no Mi | Paramecia | Admiral Fujitora / Issho |
+| Mori Mori no Mi | Logia | Admiral Ryokugyu / Aramaki |
+| Nito Nito no Mi | Logia | Conceito / Vegapunk (teoria) |
+| Gol Gol no Mi | Logia | Gild Tesoro |
+| Gasha Gasha no Mi | Paramecia | Douglas Bullet |
+| Moa Moa no Mi | Paramecia | Byrnndi World |
+| Inu Inu no Mi: Modelo Okuchi-no-Makami | Zoan Mítico | Yamato |
+| Suke Suke no Mi | Paramecia | Absalom / Shiryu da Chuva |
+| Poke Poke no Mi | Paramecia | Blamenco |
+| Ryu Ryu no Mi: Modelo Anquilossauro | Zoan Antigo | Hatcha |
+| Fuku Fuku no Mi | Paramecia | Kin'emon |
+| Mato Mato no Mi | Paramecia | Vander Decken IX |
+| Deri Deri no Mi | Logia | Hackett |
+| Jiki Jiki no Mi | Paramecia | Eustass Kid |
+| Shiku Shiku no Mi | Paramecia | Doc Q |
+| Fufu Fufu no Mi | Paramecia | Avalo Pizarro |
+| Tama Tama no Mi | Zoan | Tamago |
+| Bata Bata no Mi | Paramecia | Charlotte Galette |
 
 ---
 
